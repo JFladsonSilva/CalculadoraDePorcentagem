@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+ 
+/*A tela do usuário permite especificar o
+cor de fundo e altura. o
+display:flex propriedade, que está alinhada na
+center, é usado para preencher o espaço livre disponível
+ou reduzi-los para evitar transbordamento. */
+body {
+    background-color: #f7f7f7;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ 
+/* font-weight Especifica o peso dos glifos
+na fonte, seu grau de negritude ou
+derrame */
+h1 {
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+ 
+div {
+    width: 480px;
+    background-color: #fff;
+    margin: 12px 0;
+    padding: 24px;
+    text-align: center;
+    box-shadow: 2px 2px 8px 2px #aaa;
+}
+ 
+input[type=number] {
+    width: 84px;
+    font-size: 18px;
+    padding: 8px;
+    margin: 0px 8px 8px 8px;
+}
+ 
+/* A propriedade text-transform:uppercase
+faz com que os caracteres sejam elevados para maiúsculas.
+O peso da fonte, o tamanho da fonte e o
+tipo de cursor pode ser personalizado pelo usuário. */
+button {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 12px 0;
+    padding: 8px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+ 
+/* O peso da fonte, o tamanho da fonte, a cor de fundo,
+e borda podem ser personalizados pelo usuário.
+A propriedade border-radius permite que você dê
+um elemento de cantos arredondados.*/
+input[type=text] {
+    font-size: 22px;
+    padding: 8px 0;
+    font-weight: 900;
+    text-align: center;
+    background-color: #f7f7f7;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+}
